@@ -1,0 +1,114 @@
+
+
+
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+	font-family: 'Raleway', sans-serif;
+	font-weight: bold
+	font-size: 26px;
+	line-height: 1.19;
+	letter-spacing: 0.03em;
+	color: #2196F3
+}
+.logo-color-black {
+	color: black;
+}
+.logo-color-white {
+	color: #FFFFFF
+}
+.navigation .link{
+	font-size: 14px;
+	line-height: 1.14px;
+	letter-spacing: 0.02em;
+	color: #212121;
+}
+.navigation .link:hover,
+.navigation .link:focus {
+	color: #2196F3;
+}
+.contacts {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 1.14px;
+	letter-spacing: 0.02em;
+	color: #757575;
+}
+.contacts:hover,
+.contacts:focus {
+	color: #2196F3;
+}
+.main-header {
+	font-weight: 900;
+	font-size: 44px;
+	line-height: 1.36;
+	letter-spacing: 0.06em;
+	
+	/* color: #FFFFFF */
+}
+
+.button {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 30px;
+	color: #FFFFFF;
+	background: #2196F3
+	}
+
+.advantage {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.14px;
+	letter-spacing: 0.03em;
+	color: #212121;
+}
+.advantage-paragraph {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+.team-bg {
+	background: #F5F4FA;
+}
+.second-header {
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 1.16px;
+	letter-spacing: 0.03em;
+	color: #212121;
+}
+.our-team {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.19px;
+	letter-spacing: 0.03em;
+	color: #212121;
+}
+.profession {
+	font-size: 16px;
+	line-height: 1.19px;
+	letter-spacing: 0.03em;
+	color: #757575;
+}
+.footer-bg {
+	background-color: #2F303A;
+}
+.address {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 1.71px;
+	letter-spacing: 0.03em;
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+	
