@@ -2,8 +2,17 @@
 :root {
 	--main-font-famil:'Roboto', sans-serif;
 	--main-text-color: #212121;
+	--color-text-h2: #FFFFFF;
 	--color-text-paragraph:  #757575;
 	--text-button-hover: #FFFFFF;
+	--main-logocolor-text: #2196F3;
+	--main-logo-color: #000000;
+	--off-logo-color: #FFFFFF;
+	--color-tartet:  #2196F3;
+	--bg-footer: #2F303A;
+	--bg-dutton: #2196F3;
+	--color-bg-team: #F5F4FA;
+	--color-address: #FFFFFF;
 }
 
 body {
@@ -12,6 +21,9 @@ body {
 li {
 	list-style: none;
 }
+a {
+	text-decoration: none;
+}
 
 .logo {
 	font-family: 'Raleway', sans-serif;
@@ -19,13 +31,13 @@ li {
 	font-size: 26px;
 	line-height: 1.19;
 	letter-spacing: 0.03em;
-	color: #2196F3;
+	color: var(--main-logocolor-text);
 }
 .logo-color-black {
-	color: #000000;
+	color: var(--main-logo-color);
 }
 .logo-color-white {
-	color: #FFFFFF;
+	color: var(--off-logo-color);
 }
 .navigation .link{
 	font-size: 14px;
@@ -35,7 +47,7 @@ li {
 }
 .navigation .link:hover,
 .navigation .link:focus {
-	color: #2196F3;
+	color: var(--color-tartet);
 }
 .contacts {
 	font-weight: 500;
@@ -46,15 +58,14 @@ li {
 }
 .contacts:hover,
 .contacts:focus {
-	color: #2196F3;
+	color: var(--color-tartet);
 }
 .main-header {
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
-	letter-spacing: 0.06em;
-	
-	/* color: #FFFFFF */
+	letter-spacing: 0.06em;	
+	/* color: var(--color-text-h2); */
 }
 
 .button {
@@ -63,7 +74,7 @@ li {
 	font-size: 16px;
 	line-height: 1.87;
 	color: var(--text-button-hover);
-	background: #2196F3;
+	background: var(--bg-dutton);
 	}
 
 .advantage {
@@ -81,7 +92,7 @@ li {
 	color: var(--color-text-paragraph);
 }
 .team-bg {
-	background: #F5F4FA;
+	background: var(--color-bg-team);
 }
 .second-header {
 	font-weight: bold;
@@ -104,14 +115,14 @@ li {
 	color: var(--color-text-paragraph);
 }
 .footer-bg {
-	background-color: #2F303A;
+	background-color: var(--bg-footer);
 }
 .address {
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 1.71;
 	letter-spacing: 0.03em;
-	color: #FFFFFF;
+	color: var(--color-address);
 	font-style: normal;
 }
 .button-portfolio {
@@ -124,7 +135,7 @@ li {
 .button-portfolio:hover,
 .button-portfolio:focus {
 	color: var(--text-button-hover);
-	background: #2196F3;
+	background: var(--color-tartet);
 }
 
 .activity {
