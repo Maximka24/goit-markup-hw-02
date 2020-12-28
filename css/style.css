@@ -1,18 +1,25 @@
-
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+::after {
+	box-sizing: inherit;
+}
 :root {
-	--main-font-famil:'Roboto', sans-serif;
+	--main-font-famil: "Roboto", sans-serif;
 	--main-text-color: #212121;
-	--color-text-h2: #FFFFFF;
-	--color-text-paragraph:  #757575;
-	--text-button-hover: #FFFFFF;
-	--main-logocolor-text: #2196F3;
+	--color-text-h2: #ffffff;
+	--color-text-paragraph: #757575;
+	--text-button-hover: #ffffff;
+	--main-logocolor-text: #2196f3;
 	--main-logo-color: #000000;
-	--off-logo-color: #FFFFFF;
-	--color-tartet:  #2196F3;
-	--bg-footer: #2F303A;
-	--bg-dutton: #2196F3;
-	--color-bg-team: #F5F4FA;
-	--color-address: #FFFFFF;
+	--off-logo-color: #ffffff;
+	--color-tartet: #2196f3;
+	--bg-footer: #2f303a;
+	--bg-dutton: #2196f3;
+	--color-bg-team: #f5f4fa;
+	--color-address: #ffffff;
 }
 
 body {
@@ -25,8 +32,16 @@ a {
 	text-decoration: none;
 }
 
+/* ШАПКА САЙТА */
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200;
+	outline: 2px solid tomato;
+}
 .logo {
-	font-family: 'Raleway', sans-serif;
+	font-family: "Raleway", sans-serif;
 	font-weight: bold;
 	font-size: 26px;
 	line-height: 1.19;
@@ -39,7 +54,7 @@ a {
 .logo-color-white {
 	color: var(--off-logo-color);
 }
-.navigation .link{
+.navigation .link {
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
@@ -60,14 +75,16 @@ a {
 .contacts:focus {
 	color: var(--color-tartet);
 }
+
+/* /ШАПКА САЙТА */
+
 .main-header {
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
-	letter-spacing: 0.06em;	
+	letter-spacing: 0.06em;
 	/* color: var(--color-text-h2); */
 }
-
 .button {
 	font-family: var(--main-font-famil);
 	font-weight: 700;
@@ -75,7 +92,9 @@ a {
 	line-height: 1.87;
 	color: var(--text-button-hover);
 	background: var(--bg-dutton);
-	}
+}
+
+/* НАШИ ДОСТОИНСТВА */
 
 .advantage {
 	font-weight: 700;
@@ -91,15 +110,25 @@ a {
 	letter-spacing: 0.03em;
 	color: var(--color-text-paragraph);
 }
-.team-bg {
-	background: var(--color-bg-team);
-}
+
+/* /НАШИ ДОСТОИНСТВА */
+
+/* ЧТО МЫ ДЕЛАЕМ */
+
 .second-header {
 	font-weight: bold;
 	font-size: 36px;
 	line-height: 1.16;
 	letter-spacing: 0.03em;
 	color: var(--main-text-color);
+}
+
+/* /ЧТО МЫ ДЕЛАЕМ */
+
+/* НАША КОМАНДА */
+
+.team-bg {
+	background: var(--color-bg-team);
 }
 .our-team {
 	font-weight: 500;
@@ -114,6 +143,11 @@ a {
 	letter-spacing: 0.03em;
 	color: var(--color-text-paragraph);
 }
+
+/* /НАША КОМАНДА */
+
+/* ФУТЕР */
+
 .footer-bg {
 	background-color: var(--bg-footer);
 }
@@ -125,6 +159,10 @@ a {
 	color: var(--color-address);
 	font-style: normal;
 }
+
+/* /ФУТЕР */
+
+/* ПОРТФОЛИО */
 .button-portfolio {
 	font-family: var(--main-font-famil);
 	font-weight: 700;
@@ -152,12 +190,3 @@ a {
 	letter-spacing: 0.03em;
 	color: var(--color-text-paragraph);
 }
-
-
-
-
-
-
-
-
-	
